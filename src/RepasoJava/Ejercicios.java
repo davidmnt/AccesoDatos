@@ -1,4 +1,4 @@
-package Repaso;
+package RepasoJava;
 
 import javax.swing.*;
 import java.util.*;
@@ -71,17 +71,9 @@ public class Ejercicios {
         switch (nota) {
 
             case 0:
-                System.out.println("Insuficiente");
-                break;
             case 1:
-                System.out.println("Insuficiente");
-                break;
             case 2:
-                System.out.println("Insuficiente");
-                break;
             case 3:
-                System.out.println("Insuficiente");
-                break;
             case 4:
                 System.out.println("Insuficiente");
                 break;
@@ -92,14 +84,10 @@ public class Ejercicios {
                 System.out.println("Bien");
                 break;
             case 7:
-                System.out.println("Notable");
-                break;
             case 8:
                 System.out.println("Notable");
                 break;
             case 9:
-                System.out.println("Notable");
-                break;
             case 10:
                 System.out.println("Sobresaliente");
 
@@ -110,14 +98,15 @@ public class Ejercicios {
 
         int numRnadom = (int) (Math.random() * 100);
         boolean numAcertado = false;
-
+        int cont = 0;
         System.out.println(numRnadom);
 
         do {
+            cont++;
             System.out.println("Adivina el numero");
             int num = sc.nextInt();
             if (num == numRnadom) {
-                System.out.println("¡Muy bien has acertado!");
+                System.out.println("¡Muy bien has acertado en " + cont + " !");
                 numAcertado = true;
 
             } else if (num != numRnadom) {
