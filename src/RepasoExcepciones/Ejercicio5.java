@@ -1,5 +1,7 @@
 package RepasoExcepciones;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 
@@ -18,10 +20,12 @@ public class Ejercicio5 {
 
     private static int c() throws Exception {
 
-        int num = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Dime un numero");
+        int num = sc.nextInt();
 
         if (num <= 0) {
-            throw new Exception("No me introduzcas valores negativos");
+            throw new Exception("No me introduzcas valores negativos o cero");
         }
 
 
