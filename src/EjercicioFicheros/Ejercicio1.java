@@ -12,8 +12,7 @@ public class Ejercicio1 {
         File f2 = new File(f,"Fichero2.txt");
         File rename = new File(f,"Fichero1_copia.txt");
 
-
-
+        //Abrimos un try catch para la excepcion IOException y dentro cremos el directorio y los ficheros
         try {
 
             f.mkdir();
@@ -21,18 +20,8 @@ public class Ejercicio1 {
             f2.createNewFile();
             f1.renameTo(rename);
 
-
         }catch (IOException e){
             System.out.println("No se ha creado corectamente");
         }
-
-
-
-
-
-
-
     }
-
-
 }

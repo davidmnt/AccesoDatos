@@ -1,9 +1,6 @@
 package RepasoExcepciones;
-
 import java.util.Scanner;
-
 public class Ejercicio5 {
-
 
     public static void main(String[] args) throws Exception {
 
@@ -13,7 +10,6 @@ public class Ejercicio5 {
         //sera la propagacion de la excepcion en la funcion b() y en el main() throws Exception
 
     }
-
     private static int b() throws Exception {
         return c();
     }
@@ -28,9 +24,6 @@ public class Ejercicio5 {
             throw new Exception("No me introduzcas valores negativos o cero");
         }
 
-
         return num;
-
     }
-
 }

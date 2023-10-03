@@ -1,5 +1,4 @@
 package RepasoExcepciones;
-
 public class Ejercicio2 {
     public static void main(String[] args) {
 
@@ -11,8 +10,5 @@ public class Ejercicio2 {
         } catch (ArithmeticException e) {
             System.out.println("No puedes introducir un numero menos a uno");
         }
-
-
     }
-
 }

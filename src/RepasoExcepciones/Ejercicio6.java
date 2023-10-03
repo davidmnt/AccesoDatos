@@ -28,7 +28,5 @@ public class Ejercicio6 {
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
-
     }
-
 }
