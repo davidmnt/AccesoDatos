@@ -1,11 +1,10 @@
 package EjercicioFicheros;
-
 import java.io.*;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
 
-        //Declaramos el fichero
+        //Declaramos el directorio
         File f = new File("Ejercicio1");
         //Declaramos fichero 1 y 2
         File f1 = new File(f,"Fichero1.txt");
