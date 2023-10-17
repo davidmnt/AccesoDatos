@@ -1,6 +1,6 @@
 package EjercicioFicheros;
 
-import org.apache.commons.io.FileUtils;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class Ejercicio8 {
 
             //Despues de crear todo copiamos el fichero que habiamos creado en el padre
             // y lo copiamos al directorio creado
-            FileUtils.moveFileToDirectory(f,d,true);
+           // FileUtils.moveFileToDirectory(f,d,true);
             System.out.println("Fichero copiado");
         }catch (IOException e){
             System.out.println("Error");
