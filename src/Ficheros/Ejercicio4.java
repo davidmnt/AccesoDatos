@@ -7,7 +7,8 @@ import java.io.IOException;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-
+        //Declaramos un fichero con el nombre fichText.txt
+        //y una variable del tipo String
         File f1 = new File("FichText.txt");
         String cadena;
 
@@ -17,7 +18,7 @@ public class Ejercicio4 {
             BufferedReader br = new BufferedReader(fr);
 
             cadena = br.readLine();
-
+            
             System.out.println(cadena);
 
             br.close();

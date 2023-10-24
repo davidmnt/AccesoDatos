@@ -12,7 +12,6 @@ public class Ejercicio3 {
         try {
             ficher1.createNewFile();
 
-
             FileWriter fw = new FileWriter(ficher1);
 
             fw.write("Esto es texto escrito en un fichero de texto");
